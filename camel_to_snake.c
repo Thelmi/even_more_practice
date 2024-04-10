@@ -35,7 +35,6 @@ void    camel_snake(char *str)
         write (1, &str[i], 1);
         i++;
     }
-    
 }
 int main(int ac, char**av)
 {   
@@ -43,3 +42,6 @@ int main(int ac, char**av)
         camel_snake(av[1]);
     write (1, "\n", 1);
 }
+
+// camel to snake: Everytime you encounter a capital letter write "_" 
+// and turn the letter from capital case to lower.

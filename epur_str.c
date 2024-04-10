@@ -71,3 +71,6 @@ int main (int ac, char ** av)
       epur_str(av[1]);
     write(1, "\n", 1);
 }
+// to implement this a flag is used and initialized as false any time encounter a space, its becoming true 
+// then when it encounter anything else it writes " " and and turn flag re initialize it to false again 
+// after that it writes the letter and all that on a loop.

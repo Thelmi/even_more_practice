@@ -81,3 +81,34 @@ int main(int ac, char **av)
     write(1, "\n", 1);
     return 0;
 }
+
+// If the number num is less than or equal to 1, it is not considered prime.
+//  Thus, the function returns 0 in such cases.
+// int	i = 2;
+// 	if (num <= 1)
+// 		return (0);
+// Next, the function loops through all numbers from 2 to the square root of num. 
+// It does this to check for divisibility by smaller numbers.
+//  If num is divisible by any number in this range, it means num is not prime.
+// while (i * i <= num)     // i <= num square root of num 
+// 	{
+// 		if (num % i == 0)
+// 			return (0);
+// 		i++;
+// 	}
+
+// displays the sum
+// of all prime numbers inferior or equal
+// void add_prime_sum(int num)
+// {
+//     int sum = 0;
+//     while (0 < num)
+//     {
+//         if (isprime(num))
+//             sum += num;
+//         num--;
+//     }
+//     t_putnbr(sum);
+// }
+
+// put in mind usage ( + '0') is from integer to string (- '0') is to convert from string to integer

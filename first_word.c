@@ -48,3 +48,4 @@ int main(int ac , char **av) {
     }
     write(1, "\n", 1);
 }
+// escape any spaces ate the beggining, and then write anything that is not space or even null.

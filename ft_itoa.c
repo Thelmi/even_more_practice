@@ -79,9 +79,36 @@ char  *ft_itoa(int nbr)
 	}
     return (str);
 }
-int main()
-{
-    printf("%s\n", ft_itoa(-55));
-}
-    //  ft_itoa(nbr / 10);
-    // str[count] = (nbr % 10) + '0';
+// int main()
+// {
+//     printf("%s\n", ft_itoa(-55));
+// }
+
+// look at Atoi first because its easier and will help you understand itoa.
+/*
+    Need to malloc for the string so we need to know the number of digits.
+    we need to figure out the size of the malloc we need. we need to count the digits of the number put in mind 
+    that if the number is negative should add one as well.
+    
+    int digitcount (int nbr)
+    {
+        int count = 0;
+
+        if (nbr < 0)
+        {
+            nbr *= 1;
+            count++
+        }
+        while (nbr > 0)
+        {
+            nbr /= 10;
+            count++;
+        }
+        return count;
+    }
+*/
+/*
+Now we need to make sure for certain cases like int min: -2147483648 because if we remove the - then it will 
+be higher than what int can take (int max = 2147483647)... also another case 0 would be a case as well.
+I didnt put in my mind. I want to just return the duplicate the number string manually if any of both cases
+*/

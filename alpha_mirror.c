@@ -49,3 +49,10 @@ int main(int ac ,char**av)
         alpha_mirror(av[1]);
     write(1,"\n",1);
 }
+
+// formula: str[i] = z - str[i] + a 
+// example:
+// str[i] = 'z' - 'b' + 'a';
+//          122 - 98 + 97 
+//          24 + 97 = 121
+//          121 = 'y'

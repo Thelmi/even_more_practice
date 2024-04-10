@@ -50,3 +50,5 @@ int main(int ac, char **av)
         do_op(av[1], av[2][0], av[3]);
     write(1, "\n", 1);
 }
+// A simple if statement... depends on operation stated on third arg. 
+// The expression between 2 arg and 4th will differ

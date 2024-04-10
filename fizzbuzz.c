@@ -63,3 +63,4 @@ int main()
         i++;
    }
 }
+// simple if statement it will print depends on what is the reminder of the number.
