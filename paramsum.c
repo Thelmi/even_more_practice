@@ -34,3 +34,5 @@ int main (int ac, char **av)
     ft_putnbr(ac - 1);
     write(1, "\n", 1);
 }
+// we simply use the counter - 1 because it counts the arguments but we do - 1. to know the index of the arguement
+// putnbr used to display a number.

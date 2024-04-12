@@ -57,3 +57,5 @@ int main(int ac, char **av)
         repeat_alpha(av[1]);
     write(1,"\n",1);
 }
+// easy formula  repeat = str[i] + 1 - 'a'; give it less than 30 secs thinking.
+// make to reassign 0 to repeat each time

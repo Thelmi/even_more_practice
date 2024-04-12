@@ -38,3 +38,6 @@ int main()
     int len = 5;
     printf("%d", max(arr, len));
 }
+
+// array of integers it checks if the one afte the current one  is larger or not. if it's larger then it assign it.
+// and then compare it with one after. if its bigger it assign it. at the end we retun the largest number

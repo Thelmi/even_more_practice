@@ -48,3 +48,4 @@ int main(int ac, char **av)
         print_hex(ft_atoi(av[1]));
     write(1, "\n", 1);
 }
+// similar to putnumber but 16 based.
