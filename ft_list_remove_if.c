@@ -30,16 +30,20 @@
     if (begin_list == NULL || *begin_list == NULL)
         return;
 
-    t_list* prev= *begin_list;
+    t_list* curr= *begin_list;
 
-    if (cmp(prev -> data, data_ref))
+    if (cmp(curr -> data, data_ref) == 0)
     {
-        *begin_list = prev -> next;
-         free (prev);
+        *begin_list = curr -> next;
+         free (curr);
          ft_list_remove_if (begin_list, data_ref, cmp);
     }
     else{
-            prev = *begin_list;
-            ft_list_remove_if(&prev -> next, data_ref, cmp);
+            curr = *begin_list;
+            ft_list_remove_if(&curr -> next, data_ref, cmp);
         }
  }
+//  simple we see if cmp function returning zero or not. we have two pointers.
+// head pointer point at the next one, and then free the next one. and then we 
+// loop agian using recurssion and in case cmp didnt return 0 we point at the 
+// other pointer

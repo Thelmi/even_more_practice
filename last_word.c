@@ -56,3 +56,7 @@ int main(int ac, char **av)
         last_word(av[1]);
     write(1, "\n", 1);
 }
+// starting to check from the last--  and then if its a character 
+// but the one before it is not then we know thats the first letter
+// so we display all the letters after until it's null or a separator
+//  we use break after because we simply got what we want.

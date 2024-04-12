@@ -50,3 +50,4 @@ int main (int ac, char **av)
         hidenp(av[1], av[2]);
     write(1, "\n", 1);
 }
+// question is very clear read it carefully

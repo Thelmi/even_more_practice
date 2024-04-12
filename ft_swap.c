@@ -17,3 +17,4 @@ void ft_swap(int *a, int *b)
     *a = *b;
     *b = tmp;
 }
+// it simply swaps two values using a help of tmp. 

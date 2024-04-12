@@ -46,3 +46,7 @@ int main()
     char str[] = "taha";
     printf("%s\n",ft_strrev(str));
 }
+// it reversing a string using swapping values. 
+// be aware int len = ft_strlen(str) - 1; just bec 
+// len is used down as an index. such a silly mistake
+// if u forgot it write it.

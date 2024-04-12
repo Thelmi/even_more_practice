@@ -60,3 +60,46 @@ int main()
         i++;
     }
 }
+
+/*
+ read the question its straight forward... 
+ array of integers.. as any array we need to malloc 
+ for it. in normal cases it will be end - start + 1
+ example: 
+
+ (1, 3) end - start = 3 - 1 = 2 .... 2 + 1 = 3 = end - start + 1
+ [1, 2 ,3]  
+
+ but what if start is larger integer than end easy.
+    end - start + 1;
+ */
+/*
+    int i = 0;
+    int len;
+    if (start < end)
+        len = end - start;
+    if (end > start)
+        len = start - end; 
+    
+    int *arr = malloc(sizeof(int) * len);
+    if(!arr)
+        return (NULL);
+    
+    while(i < len)
+    {
+        if (start < end)
+        {
+            arr[i] = start;
+            start++;
+        }
+        else 
+        {
+            arr[i] = start;
+            start--;
+        }
+        i++
+    }
+    return (arr);
+*/
+
+

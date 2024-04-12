@@ -19,7 +19,7 @@
 //     void          *data;
 // }                 t_list;
 #include "ft_list.h"
-
+#include "stdlib.h"
 int	ft_list_size(t_list *begin_list)
 {
     int n = 0;
@@ -30,3 +30,4 @@ int	ft_list_size(t_list *begin_list)
     }
         return (n);
 }
+// looping and using a counter to know the list size

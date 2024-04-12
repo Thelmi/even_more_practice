@@ -15,20 +15,25 @@
 
 char *ft_strpbrk(const char *s1, const char *s2)
 {
-    while (*s1)
-    {
-        while(*s2)
+   int i = 0;
+   int j;
+
+   while (s1[i])
+   {
+        j = 0;
+        while (s2[j])
         {
-            if (*s1 == *s2)
-                return (char*)s1;
-            s2++;
+            if (s1[i] == s2[j])
+                return (char *)s1 + i;
+            j++;
         }
-        s1++;
-    }
-   return (0);
+        i++;
+   }
+   return (NULL);
 }
-// int main()
-// {
-//     printf("%s\n",ft_strpbrk("taha", "my"));
-//     printf("%s\n",strpbrk("taha", "my"));
-// }
+int main()
+{
+    printf("%s\n",ft_strpbrk("taha", "hah"));
+    printf("%s\n",strpbrk("taha", "hah"));
+}
+// it checks each letter in s1 if it exist in s2. if it does return a pointer on that character.

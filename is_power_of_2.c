@@ -23,3 +23,8 @@ int	    is_power_of_2(unsigned int n)
     else 
         return 0;
 }
+/*
+     0 is not a power of 2.. but 1 is power of 2... 2 ^ 0.
+     if its even and you divide the number by 2 on a loop and nbr was
+     always an even number until it became 1 then its power of 2; 
+*/ 

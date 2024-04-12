@@ -34,6 +34,9 @@ size_t	ft_strcspn(const char *s, const char *reject)
 int main() 
 {
 
-    printf("%zu\n", ft_strcspn("tahahelmy", "helmy"));
-    printf("%zu\n", strcspn("tahahelmy", "helmy"));
+    printf("%zu\n", ft_strcspn("tahahelmy", "q"));
+    printf("%zu\n", strcspn("tahahelmy", "q"));
 }
+
+// it takes two strings, it checks for every letter in first string, does it occur in 
+// the string? if it does it will return the index of that character.

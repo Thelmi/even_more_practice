@@ -37,3 +37,4 @@ int main()
 {
     printf("%s",ft_strdup(""));
 }
+// explained it multiple of time.

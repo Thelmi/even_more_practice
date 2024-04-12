@@ -25,3 +25,4 @@ int main()
     char s2[] = "taha";
     printf("%s",ft_strcpy(s1, s2));
 }
+// simply copying from s2 to s1;

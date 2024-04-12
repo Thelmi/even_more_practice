@@ -35,3 +35,5 @@ void t_list_foreach(t_list* begin_list, void (*f)(void *))
         list_ptr = list_ptr -> next;
     }
 } 
+// learn looping single linked list
+// let the function affect all the data in the nodes

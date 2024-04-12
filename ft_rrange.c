@@ -57,3 +57,4 @@ int main()
     }
     free(arr);
 }
+// same logic as range go to see it you will understand

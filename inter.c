@@ -65,3 +65,69 @@ int main(int ac, char **av)
         inter(av[1], av[2]);
     write(1,"\n", 1);
 }
+/*
+ two checks are in need to meet the criteria, 
+ first it needs to not be a double in s1 
+
+ if it is double then display it once
+ second it should occur on both s1 and s2
+*/
+// for the double checker we are going to compare the character
+//  we are on if it occured on the same string before or not.  
+
+/*
+int double_checker(char *str, int index)
+{
+    int i = 0;
+    while(i < index)
+    {
+        if (str[i] == str[index])
+            return 0;
+        i++;
+    }
+    return 1;
+}
+
+int i = 0;
+
+while (s1[i])
+{
+    if (double_cheker(s1, i))
+}
+*/
+// then we just do a normal checker which checks if s1[i] occurs in s2
+
+/*
+
+int checker(char *str, char c)
+{
+    int i = 0;
+    while (str[i])
+    {
+        if (str[i] == c)
+            return 1;
+        i++;
+    }
+    return 0;
+}
+int double_checker(char *str, int index)
+{
+    int i = 0;
+    while(i < index)
+    {
+        if (str[i] == str[index])
+            return 0;
+        i++;
+    }
+    return 1;
+}
+
+    int i = 0;
+
+    while (s1[i])
+    {
+        if (double_checker(s1, i) && checker(s1[i], s2))
+            write(1, &s1[i], 1);
+        i++;
+    }
+*/
