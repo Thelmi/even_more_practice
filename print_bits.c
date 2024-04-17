@@ -20,7 +20,10 @@ void print_bits(unsigned char octet)
 
 	while (i--)
 	{
-		bit = (octet >> i & 1) + '0';
+		if (octet & 1 << i)
+			bit = '1';
+		else 
+			bit = '0';
 		write(1, &bit, 1);
 	}
 }

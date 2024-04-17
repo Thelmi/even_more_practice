@@ -78,3 +78,4 @@ int main(int ac , char**av)
         t_union(av[1],av[2]);
     write(1, "\n", 1);
 }
+// easy approach is to strcat and then check for double... read inter you understand more..

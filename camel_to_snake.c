@@ -38,7 +38,7 @@ void    camel_snake(char *str)
 }
 int main(int ac, char**av)
 {   
-     if( ac == 2)
+     if(ac == 2)
         camel_snake(av[1]);
     write (1, "\n", 1);
 }

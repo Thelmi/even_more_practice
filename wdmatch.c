@@ -40,7 +40,7 @@ void wdmatch(char *s1, char *s2)
     int j = 0;
     while(s2[j])
     {
-        if(s2[j] == s1[i])
+        if (s2[j] == s1[i])
             i++;
         j++;
     }
@@ -54,3 +54,4 @@ int main(int ac, char**av)
         wdmatch(av[1], av[2]);
     write(1,"\n",1);
 }
+// for each character in s1, I will see if it occurs in the entire s2 if i does occur then I will i++ and j will continue incrementing

@@ -22,7 +22,7 @@
 
 void ft_putnbr(int num)
 {
-    if(num > 9)
+    if (num > 9)
         ft_putnbr(num / 10);
     char digit = (num % 10) + '0';
     write(1, &digit, 1);

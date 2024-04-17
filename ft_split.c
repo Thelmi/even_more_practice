@@ -115,7 +115,7 @@ int main()
     }
     printf("Word count = %d \n", word_count(str));
 }
-#include <stdio.h>
+// #include <stdio.h>
 
 // int main() {
 //     char str[] = "maaz ";

@@ -93,8 +93,8 @@ int main(int ac, char **av)
 // also if (num % i == 0) or not 
 
 /*
-    if(i <= num){
-        while(is_prime(i) && num % i == 0)
+    while (i <= num){
+        if (is_prime(i) && num % i == 0)
     }
 */
 // We need to create is prime function first if the number is 0 || 1 then its not a prime (0); 

@@ -49,10 +49,12 @@ void roastring(char *str)
      while (str[i])
     {
         if ((str[i] == ' ' || str[i] == '\t') && (str[i + 1] != ' ' && str[i + 1] != '\t' && str[i + 1] != '\0'))
-           if (start != 0)
+         {  
+            if (start != 0)
             write(1, " ", 1);
         else if (str[i] != ' ' && str[i] != '\t')
             write(1, &str[i], 1);
+         }
         i++;
     }
     if (start != 0)

@@ -19,8 +19,6 @@
 // 	 \/
 //  0110  0100
 
-#include <stab.h>
-
 unsigned char	reverse_bits(unsigned char octet)
 {
 	int		i = 8;

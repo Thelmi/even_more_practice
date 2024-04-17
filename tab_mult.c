@@ -86,3 +86,4 @@ int main(int ac, char **av)
         
     }
 }
+// easy hard coding

@@ -46,3 +46,4 @@ int main(int ac, char **av)
         rotone(av[1]);
     write(1, "\n", 1);
 }
+// easy

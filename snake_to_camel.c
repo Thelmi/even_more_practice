@@ -50,3 +50,4 @@ int main(int ac , char **av)
         snake_to_camel(av[1]);
     write(1,"\n",1);
 }
+// after every '_' I capital cased the letter and then I don't need '_' so I just escaped it.

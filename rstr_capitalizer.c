@@ -52,3 +52,4 @@ int main (int ac , char **av)
         i++;
     }
 }
+// I turned all capital letters to small to make it easier and then before space or the last letter I just turn to a capital case

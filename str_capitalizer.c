@@ -55,3 +55,5 @@ int main(int ac, char **av)
     }
     return 0;
 }
+// I will convert them all to small letters if it's the first letter then capitalize if the one before is a space and right now is a small letter 
+// then capitlize 

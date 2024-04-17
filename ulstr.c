@@ -42,3 +42,4 @@ int main(int ac, char **av)
         ulstr(av[1]);
     write(1, "\n", 1);
 }
+// read the question carefully its easy

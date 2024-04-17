@@ -33,3 +33,5 @@ void sort_int_tab(int *tab, unsigned int size)
     }
     
 }
+// (size - 1) because i starts from 0 (indexed)... I will iterate until I find a vlue which is bigger than the one after it. then just swap it and every time 
+// and after that just restart i and check from the beginning 

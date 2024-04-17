@@ -17,7 +17,6 @@ int ft_strlen(char *str)
     while (str[i])
         i++;
     return (i);
-    
 }
 char *ft_strdup(char *src)
 {

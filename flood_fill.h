@@ -1,5 +1,5 @@
-#ifndef flood_fill
-#define T_POINT_FLOOD_FILL
+#ifndef FLOOD_FILL
+#define FLOOD_FILL
 
 typedef struct  s_point
 {
